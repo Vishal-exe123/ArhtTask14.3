@@ -1,4 +1,0 @@
-- hosts:  all
-  tasks:
-  - include_tasks:  "a.yml"
-  - include_tasks:  "b.yml"
