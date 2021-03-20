@@ -1,0 +1,4 @@
+- hosts:  all
+  tasks:
+  - name: Going to include tasks for respective os family
+    include_tasks: "setup-{{ ansible_facts['distribution']}}-{{ansible_facts['distribution_major_version']}}.yml"

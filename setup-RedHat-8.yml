@@ -1,0 +1,4 @@
+- name: Going to install httpd in rhel8
+  package:
+          name:  "httpd"
+          state:  present

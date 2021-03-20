@@ -1,0 +1,4 @@
+- name: Going to install apache2 in ubuntu servers
+  package:
+          name: "apache2"
+          state:  present
