@@ -1,3 +1,0 @@
-- name: aaa
-  debug:
-         msg: "I am A"
